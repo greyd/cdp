@@ -1,0 +1,19 @@
+{
+  "name": "cdp",
+  "version": "1.0.0",
+  "description": "Just yest another app",
+  "main": "main/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greyd/cdp.git"
+  },
+  "author": "Valerii Pavlov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greyd/cdp/issues"
+  },
+  "homepage": "https://github.com/greyd/cdp"
+}
