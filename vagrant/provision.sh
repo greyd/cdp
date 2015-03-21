@@ -11,4 +11,7 @@ echo prefix = ~/.node >> ~/.npmrc
 export PATH="$PATH:$HOME/.node/bin"
 
 # Install mongoDb
-Sudo apt-get insdtall mongodb-server mongodb-clients -y
+sudo apt-get insdtall mongodb-server mongodb-clients -y
+
+# Install global node modules
+npm i -g supervisor
