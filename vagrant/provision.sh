@@ -8,10 +8,15 @@ sudo add-apt-repository ppa:chris-lea/node.js -y
 sudo apt-get update
 sudo apt-get install nodejs -y
 echo prefix = ~/.node >> ~/.npmrc
-export PATH="$PATH:$HOME/.node/bin"
+echo "export PATH=$PATH:$HOME/.node/bin" >> ~/.bashrc
+source ~/.bashrc
 
 # Install mongoDb
 sudo apt-get insdtall mongodb-server mongodb-clients -y
 
 # Install global node modules
 npm i -g supervisor
+
+# Install local npm modules
+cd /vagrant
+npm i
