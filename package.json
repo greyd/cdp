@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/greyd/cdp/issues"
   },
-  "homepage": "https://github.com/greyd/cdp"
+  "homepage": "https://github.com/greyd/cdp",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
