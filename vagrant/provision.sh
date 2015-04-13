@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Install useful utils
 sudo apt-get update
-sudo apt-get install htop git python-software-properties python g++ make -y
+sudo apt-get install vim htop git python-software-properties python g++ make -y
 
 # Install Node.js
 NPM_RC=~/.npmrc
@@ -44,9 +44,10 @@ source "$BASH_RC"
 # Install mongoDb
 sudo apt-get install mongodb-server mongodb-clients -y
 
-# Install global node modules
-#npm i -g supervisor
 
 # Install local npm modules
 cd /vagrant
-#npm i
+npm i
+
+# Install global node modules
+npm i -g supervisor
