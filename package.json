@@ -4,7 +4,7 @@
   "description": "Just yest another app",
   "main": "main/src/app.js",
   "scripts": {
-    "test": "node server/spec/app-spec.js",
+    "test": "jasmine-node server/spec/",
     "start": "supervisor -w ./srver/src/ ./server/src/app.js"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "express": "^4.12.3"
   },
   "devDependencies": {
+    "jasmine-node": "^1.14.5",
     "supertest": "^0.15.0"
   }
 }

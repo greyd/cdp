@@ -50,4 +50,4 @@ cd /vagrant
 npm i
 
 # Install global node modules
-npm i -g supervisor
+npm i -g supervisor jasmine-node
