@@ -5,7 +5,7 @@
   "main": "main/src/app.js",
   "scripts": {
     "test": "jasmine-node server/spec/",
-    "start": "supervisor -w ./srver/src/ ./server/src/app.js"
+    "start": "supervisor -w ./server/src/ ./server/src/app.js"
   },
   "repository": {
     "type": "git",
