@@ -1,4 +1,4 @@
-var app = require('../src/js/server');
+var server = require('../src/server');
 var request = require('supertest');
 
 request(server)

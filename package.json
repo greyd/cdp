@@ -4,8 +4,8 @@
   "description": "Just yest another app",
   "main": "main/src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "supervisor -w ./main/src/js/ ./main/src/js/app.js"
+    "test": "node server/spec/app-spec.js",
+    "start": "supervisor -w ./srver/src/ ./server/src/app.js"
   },
   "repository": {
     "type": "git",
